@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="homecolumn">
+                <h3 class="title">HOME</h3>
+                <p class= "scorebg", id="scoreHome"> 0</p>
+                <button onclick = "add1Scorehome()">+1</button>
+                <button onclick = "add2Scorehome()">+2</button>
+                <button onclick = "add3Scorehome()">+3</button>
+                <button class="refreshButton" onclick="newScorehome()">new</button>
+            </div>
+            <div class="guestcolumn">
+                <h3 class="title">GUEST</h3>
+                <p class= "scorebg" id="scoreGuest"> 0</p>
+                <button onclick = "add1Scoreguest()">+1</button>
+                <button onclick = "add2Scoreguest()" >+2</button>
+                <button onclick = "add3Scoreguest()">+3</button>
+                <button class="refreshButton" onclick="newScoreguest()">new</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
